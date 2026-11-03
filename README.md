@@ -137,4 +137,63 @@ int phoneNumber
     freeze()
     search()
     list()
-----------------------------------
+
+---
+
+# Operators
+
+## Arithmetic Operators
+
+- - - - % \*\* / //
+
+result = x - y ** z ** n // t
+
+- All are binary operators (We need minimum 2 operands)
+- I/P are numbers
+- O/P is number
+- We use Infix notation to code the arithmetic expressions
+- But the infix expressions are converted to post-fix and only then they are evaluated. This is beceuse the priority/precedence of operators are different.
+- All Arithmetic operators are evaluated from left to right. But this property is over-ridden by priority of operators.
+- All operators except \*\* has left to right associtivity.
+
+```
+x + y
+5 + 7
+
+0101
+0111
+1100
+
+m + n
+5 + 4.33
+```
+
+- When ever we have int + float in the expression, the int is implicitly converted to float and then the expression is evaluated.
+
+## Relational Operators
+
+> < >= <= != ==
+
+num
+n is 10 or 20
+for(i = 1; i < n+1; i++)
+for(i = 1; i <= n; i++)
+print(num * i = (num*i))
+
+5 _ 2 = 10
+5 _ 3 = 15
+5 \* 4 = 20
+
+(2, 45)
+x > 2 and x < 45
+
+[5, 50]
+x >= 5 and x <= 50
+
+(50, 100]
+x > 50 and x <= 100
+
+---
+
+5. Check if a number is Perfect Square
+6. There are 2 relational operators using which we can implement the other 4. Which are they? And show the implemention.

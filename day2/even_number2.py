@@ -1,0 +1,9 @@
+# Check if a number is Even or not.
+
+print('Enter a number to check if it is Even: ')
+input_number = int(input())
+
+if input_number % 2 == 0:
+    print(input_number, ' is Even number')
+else:
+    print(input_number, ' is not Even number')
