@@ -197,3 +197,16 @@ x > 50 and x <= 100
 
 5. Check if a number is Perfect Square
 6. There are 2 relational operators using which we can implement the other 4. Which are they? And show the implemention.
+
+---
+
+Day3 Topics:
+result problem
+math table problem for O/P formatting
+restaurant problem
+range function implementation
+functions in Python
+command line args
+list class, methods and comprehension and problems
+string class, methods, slicing and problems
+Core Python functions
