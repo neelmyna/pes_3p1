@@ -54,3 +54,87 @@ Git configuration:
 
 ## Git Push Operation:
 
+> git add <path>
+> This command lists/stages all the files that need to be updated in the remote repo
+
+> git commit
+> This command creates an object, stores/copies content of all the files that are staged and then the object is encrypted.
+
+> git push
+
+## This command finally uploads the commited object to the server.
+
+## HOW DATA IS STORED IN MEMORY
+
+The smallest unit of memory is BIT
+In one bit we can stored 0 or 1
+
+We ca make patterns of 0s and 1s and assume them to be some data
+
+Let
+000 000 be A
+000 001 be B
+000 011 be C etc.
+
+Different group of people can have their own patterns.
+But if we have to work on very big project like Airbus.....
+
+ASCII
+256 characters
+ASCII Value ASCII Char BINARY
+65 A 0100 0001
+66 B
+90 Z
+97 a
+99 c
+122 z
+
+ASCII value starts from 0 and 255
+
+Let us take 45
+0010 1101
+
+Let us now store -45
+absolute(-45)
+45
+0010 1101
+1101 0010
+1
+1101 0011
+= -1*2(7) + 1*2(6) + 1\*2(4) + 3
+= -128 + 64 + 16 + 3
+= -64 + 19
+= -45
+
+DTs in Python:
+int
+float
+str
+chr
+
+Everything in Python is an Object
+
+In C/C++/Java:
+int num = 55;
+int age = age;
+int studentAge = 17;
+
+class VtuStudentAge
+int minimumAge = 18
+int studentAge = 0
+int maximumAge = 60
+
+class BankAccount
+int accNumber
+string name
+float balance
+string type
+int phoneNumber
+
+    create()
+    update()
+    delete()
+    freeze()
+    search()
+    list()
+----------------------------------
