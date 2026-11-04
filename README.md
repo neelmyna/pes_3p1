@@ -201,12 +201,12 @@ x > 50 and x <= 100
 ---
 
 Day3 Topics:
-result problem
-math table problem for O/P formatting
-restaurant problem
-range function implementation
+result problem *
+math table problem for O/P formatting *
+restaurant problem *
+range function implementation 
 functions in Python
-command line args
+command line args *
 list class, methods and comprehension and problems
 string class, methods, slicing and problems
 Core Python functions
@@ -240,3 +240,7 @@ def my_function():
 def my_function(arg):
     print(arg)
 
+## Core Python Functions
+
+len(), max(), min(), sum()
+sorted()
