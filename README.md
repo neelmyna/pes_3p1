@@ -210,3 +210,33 @@ command line args
 list class, methods and comprehension and problems
 string class, methods, slicing and problems
 Core Python functions
+
+---
+
+## Tech Stack you can learn:
+
+1. Data Science (Data Analytics, Data Visualization and AI Tools)
+2. AI (GenAi, AgenticAI, RAG, LLMs, SLMs and others)
+3. Cloud Computing and DevOps (Git, GitLab, Dockers, Kubernates, Jenkins, CI/CD, MicroServices, AWS)
+4. Cyber Security and Networking
+5. Embedded Programming
+6. Core Programming using Java/Modern C++
+7. Mobile and or Web App Devlopment (FrontEnd, BackEnd, Database)
+
+---
+
+## range function in Python
+It takes a range of values and works on Right-Open basis.
+
+range(n)             [0, n-1] with increment of 1 (default)
+range(m, n)          [m, n-1] with default increment
+range(m, n , i)      [m, n-1] with increment of i
+range(n, m, -i)      [n, m+1, -i] with decrement of i
+Consider m < n in all cases.
+
+def my_function():
+    print('hello world')
+
+def my_function(arg):
+    print(arg)
+
