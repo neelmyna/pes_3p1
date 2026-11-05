@@ -204,9 +204,12 @@ Day3 Topics:
 result problem *
 math table problem for O/P formatting *
 restaurant problem *
-range function implementation 
+range function implementation *
 functions in Python
 command line args *
+
+DAY4 TOPICS:
+Default Args, Named Args, Return type in functions
 list class, methods and comprehension and problems
 string class, methods, slicing and problems
 Core Python functions
@@ -244,3 +247,18 @@ def my_function(arg):
 
 len(), max(), min(), sum()
 sorted()
+---
+
+i += 1
+j -= 1
+a[i] = b[j]
+b[j] -= 1
+
+i++
+j--
+a[i] = b[j]
+b[j]--
+
+a[++i] = b[--j]-- // Highly Low Cohesive Code
+sum = x++ - --y
+
