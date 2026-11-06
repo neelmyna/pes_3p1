@@ -262,3 +262,114 @@ b[j]--
 a[++i] = b[--j]-- // Highly Low Cohesive Code
 sum = x++ - --y
 
+---
+import math
+
+Read N		7
+Read P		3
+
+Read N prices
+prices []
+prices = [-3, -4, 5, 1, 8, -20, -30]
+
+sort prices
+prices = [-30, -20, -4, -3, 1, 5, 8]
+
+sum = 0
+for i in range(p):
+	sum = sum + math.abs(array[i])
+	
+print sum 
+
+
+public class Demo extends Object {
+	public static voiud main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter number of shoes: ");
+		int n = scanner.nextInt():
+		System.out.print("Enter number of shoes Shreya and Mom can carry: ");
+		int p = scanner.nextInt():
+		System.out.println("Enter prices of " + n + " shoes");
+		int array[] = new int[n];
+		for(int i = 0; i < n; i++)
+			array[i] = scanner.nextInt();
+		
+		Arrays.sort(array);
+		int sum = 0;
+		for(int i = 0; i < p; i++)
+			if(array[i] < 0)
+				sum = sum + array[i];
+		System.out.println(sum);
+	}
+}
+---
+## PROBLEM SOLVING:
+
+1. *Understand the problem and be assured that you have no ambiguity. Remove/Isolate the unwanted information. Thus you end up getting the data/input. And the relevant information.
+
+2. *Find the solution to the problem using a tested and proven technique or using trial and error method or may be by applying some mathematical formula.
+3. Write the algorithm
+    Each step in the algorithm must SIMPLE, finite and unambigious.
+4. *Pscuecode
+5. Verfy the solution. Flow chart or Data Flow Diagram.
+    Check for Cyclomatic Complexity.
+6. *Code it!
+7. Unit testing (white box testing)
+8. Optimization
+9. Documentation
+---
+# Searching & Sorting Algorithms:
+
+Linear Search
+Binary Search
+Bubble Sort
+Insertion Sort
+Quick Sort
+
+# Steps to Study an Algorithm:
+1. How the algorithm works. Watch the simulation of the algorithm.
+2. Write the Algorithm (step by step procedure) and Pseudocode
+3. Code it!
+4. Find the efficiencies (BCE, WCE)
+5. Optimize
+6. Compare the algorithms
+7. Applications
+
+# Linear Seacrh
+Size of I/P data is N elements
+Best case scenario: 1st element is the search element
+So, number of searches is 1
+Big-Oh Notation
+BCE of Linear Search is O(1)
+Worst case scenario:
+When the search element is not found
+Search element is found at last position
+In both the cases number of searches is N
+Thus WCE of Linear Search is O(N)
+
+### Big-Oh Properties:
+1. It is used to find WCE of an algorithm. However we can find the other two as well.
+2. It considers N to be very big
+3. It does not give you the exact efficiency of the algorithm. Rather its duty is to give the ORDER in which the algorithm is.
+
+
+In Linear search, The average case scenario is that the element is found at mid of the data structure (Array). Thus the number of searches may be ~ N/2.
+So ACE of Linear search is O(N)
+
+### Assigment:
+Implement find() and index() methods of str class.
+s = 'mandya karnataka'
+s.find('taka')
+s.find('mandya', 5)
+s.find('nataka', 2, 15)
+---
+## Binary Search
+I/P size is N 
+
+Let Number of iterations be X
+
+N   N/2    N/4     N/8   ............  8      4      2      1
+                                            2(2)   2(1)   2(0)
+N = 2(X-1)
+2 pow X = N
+X = LogN
